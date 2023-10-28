@@ -6,11 +6,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul style="list-style-type: circle;">
-        <li><a href="recipes/pizza.html">Pepperoni Pizza</a></li>
-        <li><a href="recipes/pancakes.html">Pancakes</a></li>
-        <li><a href="recipes/omelette.html">Cheese Omelette</a></li>
+    <div class="hero-wrapper">
+        <div class="image-wrapper">
+            <img src="images/home-page-pic.jpg" alt="" class="hero-image">
+            <div class="image-overlay"></div>
+        </div>
+        <h1 class="hero-heading">Odin Recipes</h1>
+    </div>
+    <ul>
+        <li><a href="recipes/pizza.html">
+            <div class="item-wrapper">
+                <div class="item-text">Pepperoni Pizza</div>
+                <img src="recipes/pizza.jpg" alt="" class="item-image">
+                <div class="image-overlay li-overlay"></div>
+            </div>
+        </a></li>
+        <li><a href="recipes/pancakes.html">
+            <div class="item-wrapper">
+                <div class="item-text">Pancakes</div>
+                <img src="recipes/pancakes.jpg" alt="" class="item-image">
+                <div class="image-overlay li-overlay"></div>
+            </div>
+        </a></li>
+        <li><a href="recipes/omelette.html">
+            <div class="item-wrapper">
+                <div class="item-text">Cheese Omelette</div>
+                <img src="recipes/omelette.webp" alt="" class="item-image">
+                <div class="image-overlay li-overlay"></div>
+            </div>
+        </a></li>
     </ul>
 </body>
 </html>
